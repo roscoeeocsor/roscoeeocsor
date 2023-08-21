@@ -1,7 +1,7 @@
 # 图像篡改监测 C++ 
 本文档包含了调用该方法所需的`OpenCV`安卓库、CMakeLists的配置，以及调用方法所需的步骤。
 
-## OpenC V安卓库的下载和配置
+## OpenCV 安卓库的下载和配置
 该库可以从 [OpenCV官网](https://opencv.org/releases/) 下载。请选择Android版本。
 
 下载完成后，可以根据这些链接进行配置（[Youtube](https://www.youtube.com/watch?v=Sn3YhfY5jqg&t=2430s), 
