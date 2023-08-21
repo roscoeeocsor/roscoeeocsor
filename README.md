@@ -48,6 +48,11 @@ target_link_libraries( # Specifies the target library.
 ## 调用方法
 在需要调用该方法的 Java 文件中，请添加：
 ```
+static {
+        // 加载库
+        System.loadLibrary("nativeopencv");
+}
+
 public native boolean isForged(Bitmap bitmap, String path);
 ```
 这个方法需要两个参数。
@@ -115,6 +120,10 @@ Once finishing your configuration, please remember to Make Project.
 ## Calling the native function
 In the Java class where you want to call the native function. Please make sure you have
 ```
+static {
+        System.loadLibrary("nativeopencv");
+}
+
 public native boolean isForged(Bitmap bitmap, String path);
 ```
 To call our method, you need two parameters. 
